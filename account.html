@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<section id="header">
+    <a href="#"><img src="logo.png"  class="logo" alt=""></a>
+
+<div>
+    <ul id="navbar">
+        <li><a  href="index.html">Home</a></li>
+        <li><a href="Collection.html">Collection</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="contact.html">SignUp</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-store"></i></a></li>
+        
+    </ul>
+</div>
+</section>
+
+<div class="account-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="logo.png" alt="" width="500px">
+      </div>
+      <div class="col-2">
+        <div class="form-container">
+          <div class="form-btn">
+            <span id="loginBtn" onclick="showLogin()">Login</span>
+            <span id="registerBtn" onclick="showRegister()">Register</span>
+
+          </div>
+          <form id="LoginForm">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password"> 
+            <button type="submit" class="btn">Login</button>
+            <a href="#" id="forgotLink">Forget Password</a>
+         
+          </form>
+          <form id="RegForm">
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email"> 
+            <input type="password" placeholder="Password">
+            <button type="submit" class="btn">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
